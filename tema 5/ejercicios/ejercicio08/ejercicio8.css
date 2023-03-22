@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial;
+    background-color: #001011;
+}
+.contenedor-menu{
+    width: 20%;
+    margin: 50px;
+    list-style: none;
+    display: inline-block;
+}
+.contenedor-menu .menu{
+    display: block;
+    width: 100%;
+    background-color: black;
+}
+.contenedor-menu ul{
+    list-style: none;
+}
+.contenedor-menu .menu li{
+    color: white;
+    display:block;
+    padding: 15px 20px;
+    background-color: black;
+}
+.contenedor-menu .menu li div{
+    padding-bottom: 15px;
+}
+.contenedor-menu .menu li:hover{
+    background-color: teal;
+}
+.contenedor-menu .menu #iconoIzquierda{
+    margin-right: 10px;
+}
+.contenedor-menu .menu>li>ul{
+    overflow: hidden;
+    height: 0px;
+    transition: height 1s, font-size 0.2s;
+}
+.contenedor-menu .menu>li:hover>ul{
+    background-color: grey;
+    height: 140px;
+}
+.contenedor-menu .menu>li>ul>li{
+    background-color: gray;
+}

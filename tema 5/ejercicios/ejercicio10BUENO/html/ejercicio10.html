@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	<title>ejercicio10</title>
+	<style type="text/css">
+
+		*{
+			box-sizing: border-box;
+		}
+
+		li{
+			list-style-type: none;
+		}
+
+		
+		div{
+			display: flex;
+			flex-direction: column;
+			width: 20px;
+			height: 20px;						
+		}
+
+		div a{
+			color: hotpink;
+		}
+
+		nav{
+			width: 20px;
+			border: purple solid 2px;
+			margin-left: -130px;
+			transition: all 0.60s 0.5s;
+			background-image: linear-gradient(to right, blue, black 75%);
+			color: white;
+		}
+
+		nav:target{
+			width: 120px;
+			transform: translate(130px, 0px);
+		}
+		
+		ul{
+			padding: 0;
+		}
+
+		nav ul li{						
+			height: 20px;
+			overflow: hidden;			
+		}
+
+		nav ul li:hover{
+			height: 60%;
+			background-image: linear-gradient(to right, black 75%, blue);
+		}
+
+		
+
+
+
+
+		
+		
+	</style>
+</head>
+<body>
+<div><a href="#Inicio"><i class="bi bi-arrow-right-square-fill"></i></a>
+	<nav id="Inicio">
+		<ul>
+			<li><i class="bi bi-person"></i>Profile
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+				</ul>
+			</li>
+			<li><i class="bi bi-envelope"></i>Messages
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+				</ul>
+			</li>
+			<li><i class="bi bi-gear"></i>Settings
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+				</ul>
+			</li>
+			<li><i class="bi bi-question-circle"></i>Help
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+				</ul>
+			</li>
+			<li><i class="bi bi-box-arrow-right"></i>Logout
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+				</ul>
+			</li>
+			<li><a href="#"><i class="bi bi-arrow-left-square-fill"></i></a></li>
+		</ul>
+
+	</nav>
+</div>
+</body>
+</html>

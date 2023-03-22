@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    width: 75%;
+    margin: 0 auto;
+    font-family: Arial;
+    color: white;
+    padding: 0.8%;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 20pt;
+}
+nav ul a{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-decoration: none;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    margin: 0px;
+    height: 70px;
+
+}
+nav ul a:hover{
+    background-color: brown;
+    transition: all 0.5s;
+    height: 75px;
+}

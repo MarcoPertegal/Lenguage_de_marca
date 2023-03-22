@@ -1,0 +1,53 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#envoltorio{
+    display: flex;
+}
+fieldset{
+    border: 0px;
+}
+input{
+    width:500px;
+    height: 40px;
+}
+#tamanioCajaNombre{
+    width: 200px;
+    height: 40px;
+}
+#columna1{
+    width: 50%;
+}
+#columna2{
+    width: 50%;
+}
+fieldset div{
+    margin-bottom: 3%;
+}
+
+#caja2{
+    display: flex;
+}
+#caja2 .subcaja1{
+    margin-right: 2%;
+}
+#caja2 .subcaja1 input{
+    width: 200px;
+}
+#caja2 .subcaja2 input{
+    width: 300px;
+}
+#caja3{
+    display: flex;
+}
+#caja3 div input{
+    width: 250px;
+}
+#caja3 div{
+    margin-right: 3%;
+}
+.boton{
+    margin-left: 1100px;
+    width: 200px;
+}
+

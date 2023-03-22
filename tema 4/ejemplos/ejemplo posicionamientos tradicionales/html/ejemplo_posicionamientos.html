@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Ejemplos 3 columnas</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{background-color: #9febfc;}
+		#wrapper{
+			width: 85%;
+			margin: auto;
+		}
+		header{
+			width: 100%;
+		}
+		header img{
+			width: 100%;
+		}
+		nav{
+			float: left;
+			width: 20%;
+		}
+		section{
+			float: left;
+			width: 60%;
+		}
+
+		section img{
+			width: 24%;
+		}
+
+		#final{
+			width:500px;
+		}
+		aside{
+			float: left;
+			width: 20%;
+		}
+		aside video{
+			width: 100%;
+		}
+		footer{
+			width: 100%;
+			clear: both;
+			background-color: black;
+			color: white;
+			position: fixed;
+			bottom: 0px;
+			left: 0px;
+		}
+
+		.posRelativo{
+			position: relative;
+			top: 150%;
+			left: 25px;
+		}
+
+		.posAbsoluto{
+			position: absolute;
+			top:50px;
+			left: -25px;
+		}
+		.posicionado{
+			position: relative;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<img src="../img/bannercocina.jpg">
+		</header>
+		<div id="contenedor">
+			<nav>
+				<ul>
+					<li>Inicio</li>
+					<li>Mis recetas</li>
+					<li>Contacto</li>
+					<li>Sobre nosotros</li>
+				</ul>
+			</nav>
+			<section>
+				<h1>Migas extremeñas</h1>
+				<hr>
+				<p>Las migas, como casi todo en la cocina, se hacen de distintas formas según el lugar y las costumbres de cada sitio. Hay sitios que se hacen con harina, pero por aquí siempre suelen hacerse con pan y así es como se han hecho siempre en mi casa. Se suelen acompañar de chorizo, panceta, pimientos, y otras muchas cosas, cada cual tiene su costumbre y hay quien añade todo al perol junto con el pan, aunque yo suelo hacer las migas y todo lo demás aparte</p>
+				<p>El pan que se usa suele ser pan sentado, del día anterior, que se parte en tiras con mucha paciencia, o podemos comprarlo partido, que hay panaderías que lo venden ya cortado para migas.</p>
+				<h2>Paso a paso</h2>
+				<ol>
+					<li>Ponemos el pan en un barreño (esto es una bolsa de un kilo)</li>
+					<li>Ponemos a hervir agua y agregamos un buen puñado de sal, que el agua está sabrosita</li>
+					<li>Poco a poco y ayudándonos de un cazo, vamos echando agua para mojar el pan. Echamos y movemos con las manos, cuidando de no empapar el pan demasiado. Deben quedar mojadas pero no empapadas, yo calculo que habré echado como un litro de agua con sal</li>
+					<li>Las tapamos hasta el momento de hacerlas.</li>
+				</ol>
+				<p><i>He de decir que hay quien moja el pan la noche antes, pero yo suelo mojarlo por la mañana el mismo día</i></p>
+				<p class="posicionado">
+					<img class="posAbsoluto" src="../img/migas1.jpg" alt="pan cortado">&nbsp;
+					<img class="posRelativo" src="../img/migas2.jpg" alt="mojar el pan">&nbsp;
+					<img src="../img/migas3.jpg" alt="pan mojado">&nbsp;
+					<img src="../img/migas4.jpg" alt="pan cubierto con un trapo">&nbsp;
+				</p>
+				<ol start="5">
+					<li>Para un kilo de pan usaremos dos cabezas de ajos y uno a uno iremos rajando un poco, sin partirlos</li>
+					<li>En el perol agregamos medio vaso de aceite de oliva, echamos los ajos y dejamos que se frían un poco y los apartamos</li>
+					<li>Ahora vamos echando el pan y moviendo continuamente para que no se pegue al perol. Movemos y vamos hundiendo la paleta. No se puede dejar de mover, que se queman.Así esteremos durante una hora más o menos, depende de lo mojado que estuviera el pan. Sabremos que están listas cuando el pan esté suelto.
+					<li>Añadiremos los ajos que reservamos al principio y seguiremos moviendo un poco</li> 
+				</ol>
+				<p>
+					<img src="../img/migas5.jpg" alt="ajos friéndose">&nbsp;
+					<img src="../img/migas6.jpg" alt="echar el pan en la sartén">&nbsp;
+					<img src="../img/migas7.jpg" alt="mover el pan">&nbsp;
+					<img src="../img/migas8.jpg" alt="migas tostadas">&nbsp;
+				</p>
+				<ol start="9">
+					<li>Mientras, para acompañar iremos preparando por ejemplo unos pimientos, que freiremos en aceite de oliva</li>
+					<li>La panceta, a la que quitaremos la corteza y partiremos en trozos pequeños. Le añadiremos un poco de sal y freiremos en el mismo aceite</li>
+					<li>Y el chorizo que igualmente partimos y freímos</li>
+					<li>También podemos pelar unos rábanos que le van estupendamente</li>
+					<li>De manera que ya tenemos las migas,los pimientos, rábanos, chorizo y panceta.</li>
+				</ol>
+				<p>
+					<img src="../img/migas9.jpg" alt="pimientos fritos">&nbsp;
+					<img src="../img/migas10.jpg" alt="panceta frita">&nbsp;
+					<img src="../img/migas11.jpg" alt="chorizo frito">&nbsp;
+					<img src="../img/migas12.jpg" alt="unir todos los ingredientes">&nbsp;<br>
+				</p>
+				<h3>Ahora cacual que se sirva lo que le guste!! y por supuesto bien calentitas</h3>
+				<img id="final" src="../img/migas13.jpg" alt="resultado final" >
+			</section>
+			<aside>
+				<div id="video">
+					<video poster="../video/portada.png" controls preload >
+						<source src="../video/migas.3gp" type="audio/3gp">
+						<source src="../video/migas.mp4" type="audio/mpeg">
+						<source src="../video/migas.webm" type="audio/webm">
+					</video>
+				</div>
+			</aside>
+		</div>
+		<footer>
+			<H1>ESTE SITIO UTILIZA COOKIES...YA SABES LO QUE TOCA</H1>
+			<p>Copyleft El Cocinillas S.L. <a href="">Nota legal</a></p>
+		</footer>
+	</div>
+</body>
+</html>

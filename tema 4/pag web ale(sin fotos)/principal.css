@@ -1,0 +1,194 @@
+/*Todo lo relacionado con lo básico y el header*/
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-image: url("../imagenes/fondo_pantalla.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 800px;
+    max-width: 4500px;
+}
+
+header {
+    display: inline-block;
+    margin: 0px;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+#logo {
+    width: 150px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo img {
+    width: 150px;
+    margin: 10px;
+    float: left;
+    margin-bottom: 0px;
+}
+
+#logo figcaption {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 20px;
+    color:#1e1d1c;
+    text-shadow:none;
+}
+/*Todo lo relacionado con la navegación*/
+nav ol {
+    list-style: none;
+    width: 80%;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+nav li {
+    display: inline-block;
+    width: calc(80%/4);
+    margin-left: -6px;
+    margin-right: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    transition: 0.5s;
+}
+
+nav li:hover {
+    display: inline-block;
+    background-color: #6b686360;
+    width: calc(80%/4);
+    margin-left: -6px;
+    margin-right: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    transform: scale(1.01);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Todo lo relacionado con el artículo*/
+article {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.70);
+    padding: 2em;
+}
+
+article h1 {
+    font-family: 'Varela Round', sans-serif;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-top-left-radius: 10px;
+}
+
+#indice {
+    float: left;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: left;
+    background-image: url("imagenes/fondo_h.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:15%;
+}
+
+#indice ul {
+    list-style: square;
+}
+
+#indice ul li ul li {
+    list-style: circle;
+    border-bottom: 5px double white;
+    border-left: 5px double white;
+    border-bottom-left-radius: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 4px;
+    padding-bottom: 2px;
+    transition: 0.2s;
+}
+
+#indice ul li ul li:hover {
+    list-style: circle;
+    background-color: #6b686360;
+    border-bottom: 5px double white;
+    border-left: 5px double white;
+    border-bottom-left-radius: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 4px;
+    padding-bottom: 2px;
+    transform: scale(1.02);
+}
+
+@media (max-width: 1300px) {
+    #indice ul li ul  {
+        padding-left: 0px;
+    }
+}
+
+#contenido {
+    display: inline-block;
+    background-color: rgba(209, 85, 85, 0.658);
+    width: 80%;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 2em;
+}
+
+#contenido img {
+    width: 300px;
+    float: right;
+    margin: 1em;
+}
+/*Todo lo relacionado con el aside*/
+/*todo lo relacionado con el pie de página*/
+footer {
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.95);
+    text-shadow: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-align: right;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    color: black;
+}
+
+footer img {
+    margin: 5px;
+    margin-left: 1em;
+    width: 30px;
+    float:left;
+}

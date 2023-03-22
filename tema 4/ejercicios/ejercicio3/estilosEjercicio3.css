@@ -1,0 +1,38 @@
+@font-face{
+	font-family: Helvetica;
+	src: url(fonts/Helvetica.ttf);
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: Helvetica, Arial;
+	background-color: black;
+}
+header img{
+	width: 100%;
+}
+#envoltorio{
+	display: flex;
+	background-color: white;
+	width: 85%;
+	margin: 0 auto;
+}
+#envoltorio nav{
+	color: white;
+	background-color: #DDBEA8;/*como aumento para que quepa más texto*/
+	padding: 2%;
+	list-style-type: none;
+}
+#envoltorio main{
+	flex-basis: 60%;
+	flex-grow: 1;
+	flex-shrink: 1;
+	background-color: white;
+	padding: 2%;
+}
+footer img{
+	text-align: center;
+	width: 100%;
+
+}

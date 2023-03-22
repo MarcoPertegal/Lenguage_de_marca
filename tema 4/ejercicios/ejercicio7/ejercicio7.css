@@ -1,0 +1,26 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+}
+#caja{
+	display: flex;
+	width: 50vm;
+	flex-wrap: wrap;
+}
+#bloques{
+	margin: 3%;
+	width: 18%;
+	border: grey solid 3px;
+	border-radius: 20px;
+	color: white;
+	font-family: Arial;
+	text-align: center;
+}
+#bloques img{
+	width: 100%;
+	border-top: transparent;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+}

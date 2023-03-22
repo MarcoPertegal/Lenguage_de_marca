@@ -1,0 +1,26 @@
+
+/*General*/
+
+/*header*/
+
+/*nav*/
+
+/*main*/
+p strong{
+    color: red;
+}
+main .pConFoto2{
+    display: flex;
+}
+main .pConFoto2 p{
+    flex: 1 1 75%;
+}
+main .pConFoto2 img{
+    display: block;
+    flex: 0 0 20%;
+    width: 50%;
+    margin-right: 5%;
+}
+/*aside*/
+
+/*footer*/

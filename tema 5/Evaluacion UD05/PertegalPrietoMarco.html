@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>PC Regalo</title>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		body{
+			margin:0px;
+		}
+		/*ESTILOS PARA EL EJERCICIO 1*/				
+		nav{
+			background-image: url(img/logo_ejercicio1.png);
+			background-repeat: no-repeat;
+			background-color: lightblue;
+			background-size: 155px;
+			display: flex;
+			color: #0762f4;
+			font-family: Arial, sans-serif;
+			height: 100px;
+			width: 100%;
+			position: fixed;
+			margin-top: 0px;
+			font-size: 16pt;
+		}
+		nav:hover{
+			background-size: 355px;
+			transition: all 1s;
+		}
+		nav ul{
+			list-style-type: none;
+			display: flex;
+			margin-left: 25%;
+			
+		}
+		nav ul+ul li{
+			margin-left: 25%;
+		}
+		nav ul li{
+			padding-top: 38px;
+			padding-bottom: 50px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		nav ul+ul{
+			justify-content: space-between;
+		}
+		nav ul li:hover{
+			color: white;
+			background-color: #023484;
+			transition: all 0.5s;
+		}
+
+		/*ESTILOS PARA LOS EJERCICIOS 2 y 3 (añade lo que necesites)*/
+		footer{
+			position: fixed;
+			bottom: 0px;
+			height: 200px;
+			width: 100%;
+			background-image: linear-gradient(to right, lightblue,#023484 );
+			display: flex;
+			align-items: flex-end;
+			flex-direction: column;
+			text-align: right;
+		}
+		footer p{
+			width: 20%;
+			font-family: "Comic Sans MS";
+			font-size: 12pt;
+			padding-right: 20px;
+			position: absolute;
+		}
+		footer p+p{
+			background-color: #023484;
+			color: white;
+			border-radius: 15px;
+			margin-top: 6%;
+			margin-right: -310px;
+			position: absolute;
+		}
+		footer p+p:hover{
+			margin-right: 0px;
+			transition: all 1s;
+		}
+
+		
+	</style>
+</head>
+<body>
+
+	<!--HTML PARA EL EJERCICIO 1. No puedes modificar este código, ni siquiera para añadir clases o id-->
+	<nav>
+		<ul>	
+			<div></div>
+			<li>INICIO</li>		
+		</ul>
+		<ul>			
+			<li>Buscar</li>		
+			<li>Contacto</li>
+			<li>Productos</li>		
+		</ul>
+	</nav>
+
+	<h1>Marco Pertegal Prieto</h1>
+
+	<!--HTML PARA LOS EJERCICIOS 2 y 3. No puedes modificar este código, ni siquiera para añadir clases o id-->
+	<footer>
+		<p><img src="img/iconoWhatsapp.png"></p>
+		<p>Si quieres hablar con nosotros, escríbenos un whatsapp al 666333444 o un correo a info@pcregalo.com</p>
+	</footer>
+</body>
+</html>

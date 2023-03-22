@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hdad. </title>
+	<meta charset="UTF-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+	
+	<style type="text/css">
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-color: bisque;
+        }
+        h1{
+            font-family: 'Satisfy';
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+            color: #094074;
+        }
+        fieldset{
+            border: 1px solid #094074;
+            margin: 0 auto;
+        }
+        form{
+            width: 80%;
+            border: 5px solid #094074;
+            margin: 0 auto;
+            background-color: lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 3%;
+        }
+        #papeletas{
+            width: 100%;
+			margin-bottom: 20px;
+        }
+        #papeletas > .cajaTiposInsignias{
+            display: flex;
+			width: 100%;
+        }
+        .subCajaTiposInsignias{
+            width: 80%;
+			margin-bottom: 1%;
+            display: block;
+        }
+        input[type="checkbox"]:checked+label.color{
+			color: purple;
+		}
+        .datos{
+            margin-right: 2%;
+        }
+        #caja{
+            display: flex;
+        }
+        .datos, .pago{
+            height: 175px;
+			width: 50%;
+        }
+        /* Tabla */
+        hr{
+            margin-top: 3%;
+            color: #094074;
+        }
+
+        h2{
+            font-family: 'Satisfy';
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+            color: #094074;
+        }
+        table{
+            border-collapse: collapse;
+            width: 70%;
+            margin: 0 auto;
+            border: 5px solid #094074;
+            background-color: lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        td,th{
+            text-align: center;
+            border: 1px solid #094074;
+            padding: 1%;
+        }
+		tfoot td{
+            text-align: left;
+            font-size: 10pt;
+            
+        }
+        td:nth-child(2){
+            width: 10%;
+        }
+		
+	</style>
+</head>
+<body>
+	<h1>Ilustre y Poco Antigua Hermandad del Santísimo Sacramento y Cofradía de Nazarenos de Nuestro Padre Señor del Soberano Poder del Wifi y María Santísima de la Cobertura Imposible </h1>
+	
+	<form name="papeletasCuaresma" action="" method="" autocomplete="" enctype="multipart/from-data">
+		<fieldset id="papeletas">
+			<legend>Elija su papeleta</legend>
+			<label for="pasos">¿En qué paso desea salir?</label> 
+            <select name="tipoPaso" id="tipoPaso" required>
+            <option value="tipoPaso1">Cristo</option>
+            <option value="tipoPaso2">Virgen</option>    
+            </select><br>
+            <label for="tamanioCirio">¿De qué tamaño desea el cirio?</label>
+            <input type="radio" id="tamanioCirio" name="tamanioCirio" value="P" required>Pequeño
+			<input type="radio" id="tamanioCirio" name="tamanioCirio" value="n" required>Normal
+			<input type="radio" id="tamanioCirio" name="tamanioCirio" value="c" required>Cruz
+            <br>
+            <label for="tiposInsignias">¿Desea solicitar portar alguna insignia?</label><br>
+            <div class="cajaTiposInsignias">
+                <div class="subCajaTiposInsignias">
+                    <input type="checkbox" id="tiposInsignias1" name="tiposInsignias1" value="1"> <label class="color" for="tiposInsignias1">Cruz de Guía</label>
+                    <input type="checkbox" id="tiposInsignias2" name="tiposInsignias2" value="2"> <label class="color" for="tiposInsignias2">Senatus</label>
+                    <input type="checkbox" id="tiposInsignias3" name="tiposInsignias3" value="3"> <label class="color" for="tiposInsignias3">Bandera Morada</label>
+                </div>
+                <div class="subCajaTiposInsignias">
+                    <input type="checkbox" id="tiposInsignias4" name="tiposInsignias4" value="4"> <label class="color" for="tiposInsignias4">Reliquia Lignum Crucis</label>
+                    <input type="checkbox" id="tiposInsignias5" name="tiposInsignias5" value="5"> <label class="color" for="tiposInsignias5">Banderín Juventud</label>
+                    <input type="checkbox" id="tiposInsignias6" name="tiposInsignias6" value="6"> <label class="color" for="tiposInsignias6">Estandarte Sacramental</label>
+                </div>
+                <div class="subCajaTiposInsignias">
+                    <input type="checkbox" id="tiposInsignias7" name="tiposInsignias7" value="7"> <label class="color" for="tiposInsignias7">Cruz Alzada</label>
+                    <input type="checkbox" id="tiposInsignias8" name="tiposInsignias8" value="8"> <label class="color" for="tiposInsignias8">Simpecado</label>
+                    <input type="checkbox" id="tiposInsignias9" name="tiposInsignias9" value="9"> <label class="color" for="tiposInsignias9">Bandera Blanca</label>
+                </div>
+                <div class="subCajaTiposInsignias">
+                    <input type="checkbox" id="tiposInsignias10" name="tiposInsignias10" value="10"> <label class="color" for="tiposInsignias10">Guión de Caridad</label>
+                    <input type="checkbox" id="tiposInsignias11" name="tiposInsignias11" value="11"> <label class="color" for="tiposInsignias11">Libro de Reglas</label>
+                    <input type="checkbox" id="tiposInsignias12" name="tiposInsignias12" value="12"> <label class="color" for="tiposInsignias12">Estandarte</label>
+                </div>
+            </div>
+
+			<label for="peticiones">¿Desea indicarnos alguna petición especial?</label><br>
+			<textarea id="peticiones" name="peticiones" rows="7" cols="30"></textarea>
+        </fieldset>
+
+		<div id="caja">
+			<fieldset class="datos">
+                <legend>Indique sus datos personales</legend> 
+				<label for="nombre">Nombre y apellidos</label> 
+				<input type="text" name="nombre" id="nombre" maxlength="35" size="20" required placeholder="Nombre y apellidos"><br>
+				<label for="direccion">Dirección de envío</label>
+				<input type="email" name="direccion" id="direccion" maxlength="50" size="50" required placeholder="c/Cofrades del Soberano, 4"><br><br>
+				<label for="codpostal">Código Postal</label>
+				<input type="text" name="codpostal" id="codpostal" maxlength="5" size="5" pattern="[0-9]{5}" required placeholder="41024"><br><br>
+				<label for="tlf">Teléfono de contacto</label>
+				<input type="text" name="tlf" id="tlf" maxlength="9" size="9" pattern="[0-9]{9}" required placeholder="954123123"><br>
+            </fieldset>
+			<fieldset class="pago">
+				<legend>Indique sus datos de pago</legend>
+				<label for="tarjeta">Número de tarjeta</label>
+				<input type="text" name="tarjeta" id="tarjeta" maxlength="16" size="16" pattern="[0-9]{16}"required placeholder="16 cifras sin espacios"><br><br>
+				<label for="fcad">Fecha de Caducidad</label>
+				<input type="month" name="fcad" id="fcad"><br><br>
+				<label for="ccv">Código de Seguridad (CCV)</label>
+				<input type="password" name="ccv" id="ccv" maxlength="3" size="3" pattern="[0-9]{3}" required placeholder="123"><br><br>
+            </fieldset>
+		</div>
+		<p>
+			<input type="submit" value="Solicitar Papeleta">
+			<input type="reset" value="Borrar datos">
+		</p>
+	</form>
+
+	<hr />
+
+	<table>
+		<h2>Limosnas 2023</h2> 
+        <thead>
+            <tr>
+                <th>Papeleta</th>
+                <th>Limosna</th>
+                <th>Observaciones</th>
+            </tr>				
+        </thead>
+        <tbody>
+            <tr>
+				<td>Cirio, cruz</td>
+				<td>16€</td>
+				<td>Pequeño: 12€</td>				
+            </tr>
+            <tr>
+				<td>Insignias Cristo</td>
+				<td>20€</td>
+				<td> - </td>				
+            </tr>
+            <tr>
+				<td>Insignias Virgen</td>
+				<td>22€</td>
+				<td> - </td>				
+            </tr>
+            <tr>
+				<td rowspan="3">Entrega</td>
+				<td colspan="2">Recogida en casa hermandad: Gratis.</td>
+						
+            </tr>
+            <tr>
+				<td colspan="2">Envío electrónico: 1€</td>			
+								
+			</tr>
+            <tr>	
+				<td colspan="2">Envío postal: 2€</td>			
+				
+            </tr>	
+		</tbody>
+        <tfoot>
+			<td colspan="3">NOTA: Todas las insignias se asignarán por orden de antigüedad</td>
+			
+        </tfoot>
+	</table>
+</body>
+</html>

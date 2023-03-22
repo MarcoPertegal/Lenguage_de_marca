@@ -1,0 +1,95 @@
+@font-face{
+	font-family: "arialLight";
+	src: url('fonts/arialLight.TTF');
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: arialLight, Arial;
+	margin: 0px;
+	padding: 0px;
+}
+nav{ /*preguntar como ponerlo en fixed sin que se tape*/ 
+	display: flex;
+	padding: 0.3% 0.3% 0.1% 0.3%;
+	border-bottom: #E6E6EA solid 5px;
+	width: 100%;
+	background-color: white;
+	font-size: 15pt;
+
+}
+nav .navegacion{
+	margin-right: 2%;
+}
+nav .navegacion1{
+	color: grey;
+}
+nav .navegacion2{
+	margin-left: 55%;
+}
+nav span{
+	color: #3F88C5;
+}
+header{
+	font-size: 30pt;
+	padding-left: 2%;
+	line-height: 15pt;
+}
+#envoltorio{
+	display: flex;
+}
+.cajas{
+	border: #E6E6EA solid 2px;
+	margin: 1%;
+}
+main{
+	list-style: none;
+	padding-left: 2%;
+	width: 73%;
+}
+main ul{
+	list-style-type: none;
+	color: #3F88C5;
+	line-height: 26pt;
+}
+main li{
+	font-size: 17pt;
+}
+main p{
+	line-height: 20pt;
+	font-size: 25pt;
+}
+main ul .lista{
+	font-size: 20pt;
+}
+main sub{
+	color: black;
+}
+aside{
+	width: 27%;
+	margin-top: 0.8%;
+}
+aside p{
+	padding: 2% 2% 2% 5%;
+	font-size: 15pt;
+	line-height: 10 pt;
+}
+aside img{
+	width: 100%;
+}
+aside .cajas{
+	margin-bottom: 5%;
+	margin-right: 3.5%;
+}
+footer{
+	background-color: #576066;
+	color: white;
+	padding: 0.2% 0.2% 0.2% 10%;
+	line-height: 4pt;
+	font-size: 13pt;
+	margin-top: 2%;
+}
+footer img{
+	width: 8%;
+}

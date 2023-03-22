@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ejemplo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- En w3school bookstrap,  cuidao al copiar el codigo debe ser la versión 5 -->
+    <!-- Los dos links de arriba hacen falta para que funcione -->
+    <!-- la clase display hyace que los h1,h2... se hagan mas grandes,hay mas en el apartado de typography -->
+    <!-- Nuestra pagina de estidos css tiene que estar por detras de la de boosktrao -->
+</head>
+<body>
+  <!-- la p es el pading en este caso 0 -->
+  <!-- La información viene en bookstrap en la pesataña bs5 Containers y en grind basic -->
+  <header class="container-fluid p-0"> 
+    <h1 class="display-1 text-bg-success p-4" >Algo felipe</h1>
+  </header>
+  
+  <p class="container-fluid">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi et dicta fuga odit eum, temporibus obcaecati similique. 
+    Dolores debitis a dolorum natus, ut ex ipsa esse soluta obcaecati sit optio?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio amet quos veritatis corporis dignissimos consequuntur 
+    officia, ipsum a impedit reiciendis recusandae eos. Nihil, eaque temporibus. Fuga laboriosam labore consequatur dolorum.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores excepturi optio, deleniti et quisquam. Sed ipsum harum aperiam corporis explicabo, veritatis tempore quod quae doloremque 
+    numquam aliquid id ipsa.
+  </p>
+
+    <div class="container mt-3">
+      <h2 class="display-1">Pills with Dropdown</h2>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Dropdown</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Link 1</a></li>
+            <li><a class="dropdown-item" href="#">Link 2</a></li>
+            <li><a class="dropdown-item" href="#">Link 3</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+    </div>
+    <footer class="container-fluid">
+      <div class="row">
+        <!-- El tamaño máximo que pueden ocupar es 12 las 4 suman 12 3+3+3+3 so sumaran 13 la clumna siguiente se va abajo -->
+        <!-- ¿QUE ES WORDPRESS? -->
+        <div class="border col-3">Una Columna</div>
+        <div class="border col-3">Una Columna</div>
+        <div class="border col-3">Una Columna</div>
+        <div class="border col-3">Una Columna</div>
+      </div>
+      <div class="row">
+        <!-- por defecto es col- 12 en las s y la xs en este caso si no especifico nada se queda como este en la primera sin especificar-->
+        <!-- Hay un boton que sirbe para ver la vista de movil al lado del nboton de clicar para seleccionar-->
+        <!-- Col asecas es igual que poner xs hay varias tallas xs-s-md-lg-xl-xxl -->
+        <div class="border col-12 col-md-6 col-xl-3">Otra Columna</div>
+        <div class="border col-12 col-md-6 col-xl-3">Otra Columna</div>
+        <div class="border col-12 col-md-6 col-xl-3">Otra Columna</div>
+      </div>
+    </footer>
+    <!-- Cosa a tener en cuenta mirar primero el codigo antes de copiarlo, ese codigo siempre hay que tunearlo, si porejemplo un codigo para 
+    un menu viene en un div hay que cambarlo a un nav, cuando copie y pegue una hoja de estilos css darle click derecho despues format document 
+  para que se ordene -->
+</body>
+</html>

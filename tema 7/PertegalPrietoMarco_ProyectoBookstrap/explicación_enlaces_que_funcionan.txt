@@ -1,0 +1,14 @@
+Debido a que la página web consta de muchos enlaces a diferentes productos he 
+información por falta de tiempo solo funcionarán algunos enlaces:
+
+- Portada: apartado de productos del menú y el enlace visita nuestra tienda de la 
+	imagen de la portada llevaran a los productos disponibles en la tienda.
+
+- Productos: apartado de inicio del menú llevará a la portada y solo la primera imagen 
+	de los productos disponibles en la tienda llevará a las especificaciones del
+	mismo.
+
+- MesaDeCampo: apartado de inicio del menú llevará a la portada y productos a la página 
+	previa, el botón de compra del final de la página avanza al formulario.
+
+-Formulario: apartado de inicio y productos.

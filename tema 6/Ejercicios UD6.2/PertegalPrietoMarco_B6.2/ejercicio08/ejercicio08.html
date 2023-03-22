@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8</title>
+    <link rel="stylesheet" href="ejercicio08.css">
+</head>
+<body>
+    <div id="formulario">
+        <h1>Formulario de Alta</h1>
+        <form name="resgistro" action="" method="" autocomplete="" enctype="multipart/from-data">
+            <div id="envoltorio">
+                <div>
+                    <label for="numH"><strong>Número de huéspedes</strong> </label><br>
+                    <input id="numero" type="number" name="numH" id="numH" min="0" max="8" step="1" value="1" size="3">
+                </div>
+                <fieldset>
+                    <legend><strong>Estancia</strong> </legend>
+                    <div>
+                        <label for="FechaEntrada">Fecha de entrada</label><br>
+                        <input type="date" name="FechaEntrada" id="FechaEntrada" min="2023-02-21"><br>
+                    </div>
+                    <div>
+                        <label for="FechaSalida">Fecha de salida</label><br>
+                        <input type="date" name="FechaSalida" id="FechaSalida" min="2023-02-21"><br>
+                    </div>
+                </fieldset>
+                <div>
+                    <label for="prov"><strong>Tipo de habitación</strong> </label><br>
+                    <input type="text" name="tipo" id="tipo" list="opciones">
+                    <datalist id="opciones">
+                        <option value="Habitación individual"></option>
+                        <option value="Habitación doble"></option>
+                        <option value="Habitación triple"></option>
+                        <option value="Habitación cuádruple"></option>
+                        <option value="Connecting rooms"></option>
+                        <option value="Suite"></option>
+                    </datalist>
+                </div>
+                <div>
+                    <label for="email"><strong>Email</strong> </label><br>
+                    <input type="text" name="email" id="email" placeholder="" required autofocus autocomplete maxlength="50">
+                </div>
+            </div>
+            <input id="boton" type="submit" name="enviar" value="Enviar"> 
+        </form>
+    </div>
+</body>
+</html>

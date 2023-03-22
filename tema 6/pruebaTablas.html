@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        *{
+            box-sizing: border-box;
+        }
+        body{
+			background-color: bisque;
+		}
+        table{
+            width: 80%;
+            border: 5px solid lightgreen;
+            background-color: lightcyan;
+            margin: 0 auto;
+        }
+        /* Para que uno tenga mas ancho ue el resto  */
+        td:nth-child(1), th:nth-child(1){
+			width: 60%;
+		}
+        /* con el td,th aplico a las columnas */
+        td:nth-child(4){
+            background-color: red;
+        }
+        /* Con tr aplico a las filas */
+        tr:nth-child(2){
+        background-color: lightgrey;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Tarifas 2022</caption>
+        <thead>
+            <tr>
+                <th>Categoría</th>
+                <th>Traje</th>
+                <th>Máscara</th>
+                <th>Completo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Animales, plantas, objetos</td>
+                <td>15€</td>
+                <td>15€</td>
+                <td>25€</td>
+            </tr>
+            <tr>
+                <td>Personas y personajes</td>
+                <td>10€</td>
+                <td>10€</td>
+                <td>15€</td>
+            </tr>
+            <tr>
+                <td>Vehículos</td>
+                <td>15€</td>
+                <td>15€</td>
+                <td>25€</td>
+            </tr>
+            <tr>
+                <td>Inclasificables</td>
+                <td>20€</td>
+                <td>20€</td>
+                <td>35€</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Envío</td>
+                <td colspan="3">Península: 10€.</td>			
+            </tr>
+            <tr>			
+                <td colspan="3">Otros destinos: consultar</td>			
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">NOTA: Todos los precios son por día de alquiler, incluyen IVA, servicio de limpieza y desinfección. Envío no incluido</td>
+            </tr>
+        </tfoot>
+</body>
+</html>

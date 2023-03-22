@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "MyriadPro-light";
+    src: url('fonts/MyriadPro-light.OTF');
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+nav{
+    width: 75%;
+    margin: 0 auto;
+    font-family: "MyriadPro-light";
+    color: white;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 10pt;
+}
+nav ul a{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-decoration: none;
+    color: #9DA2AB;
+}
+main img{
+    width: 100%;
+}
+nav ul a:hover{
+    color:white;
+    transition: all 0.5s;
+}

@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+nav ul{
+    padding: 0px;
+}
+nav ul li{
+    background-repeat: no-repeat;
+    list-style-type: none;
+    display: block;
+    height: 65px;
+    width: 65px;   
+    transition: all 0.2s;
+}
+#icono1{
+    background-image: url(img/DashIcons1.jpg);
+}
+#icono1:hover{
+    border: 5px solid red;
+   
+}
+#icono2{
+    background-image: url(img/DashIcons2.jpg);
+}
+#icono2:hover{
+    border: 5px solid red;
+}
+#icono3{
+    background-image: url(img/DashIcons3.jpg);
+}
+#icono3:hover{
+    border: 5px solid red;
+}
+#icono4{
+    background-image: url(img/DashIcons4.jpg);
+}
+#icono4:hover{
+    border: 5px solid red;
+}
+#icono5{
+    background-image: url(img/DashIcons5.jpg);
+}
+#icono5:hover{
+    border: 5px solid red;
+}
+

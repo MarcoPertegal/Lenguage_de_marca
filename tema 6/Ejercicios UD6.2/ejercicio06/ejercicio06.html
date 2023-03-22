@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+    <link rel="stylesheet" href="ejercicio06.css">
+</head>
+<body>
+    <h1>Formulario de alta</h1>
+    <form name="resgistro" action="" method="" autocomplete="" enctype="multipart/from-data">
+        <hr>
+        <div id="envoltorio">
+                <div id="caja">
+                    <legend><strong>Nombre y apellidos</strong></legend>
+                    <div>
+                        <div>
+                            <input id="tamanioCajaNombre" type="text" name="nombre" id="nombre" placeholder="" required autofocus autocomplete maxlength="50"><br>
+                            <label for="nombre">Nombre</label>
+                        </div>
+                        <div>
+                            <input type="text" name="primerApellido" id="primerApellido" placeholder="" required autofocus autocomplete maxlength="50"><br>
+                            <label for="apellido1">Primer Apellido</label>
+                        </div>
+                        <div>
+                            <input type="text" name="segundoApellido" id="segundoApellido" placeholder="" required autofocus autocomplete maxlength="50"><br>
+                            <label for="apellido2">Segundo Apellido</label>
+                        </div>
+                    </div>
+                    <div>
+                        <p>* Si no posee segundo apellido introduzca un punto (".")</p>
+                    </div>
+                </div>
+                <div id="caja2">
+                    <legend id="legend1"><strong>Dirección</strong></legend>
+                    <div>
+                        <div>
+                            <input type="text" name="calle" id="calle" placeholder="" required autofocus autocomplete maxlength="50"><br>
+                            <label for="calle">Calle, número, piso, puerta</label>
+                        </div>
+                        <div id="envoltorio2">
+                            <div class="subcaja1">
+                                <div>
+                                    <input type="text" name="codPostal" id="codPostal" placeholder="" required autofocus autocomplete maxlength="50"><br>
+                                    <label for="codPostal">Código Postal</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="provincia" id="provincia" list="opciones">
+                                    <datalist id="opciones">
+                                        <option value="Sevilla"></option>
+                                        <option value="Cádiz"></option>
+                                        <option value="Málaga"></option>
+                                        <option value="Granada"></option>
+                                        <option value="Huelva"></option>
+                                        <option value="Córdoba"></option>
+                                    </datalist><br>
+                                    <label for="prov">Provincia</label>
+                                </div>
+                            </div>
+                            <div class="subcaja2">
+                                <div>
+                                    <input type="text" name="municipio" id="municipio" placeholder="" required autofocus autocomplete maxlength="50"><br>
+                                    <label for="municipio">Municipio</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="país" id="país" list="opciones">
+                                    <datalist id="opciones">
+                                        <option value="Alemania"></option>
+                                        <option value="Francia"></option>
+                                        <option value="Italia"></option>
+                                        <option value="España"></option>
+                                        <option value="Grecia"></option>
+                                        <option value="Polonia"></option>
+                                    </datalist><br>
+                                    <label for="país">País</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>* El código postal es imprescindible para recibir los pedidos.</p>
+                    </div>
+                </div>
+                <div id="caja3">
+                    <legend id="legend2"><strong>Email</strong></legend>
+                    <input type="text" name="email" id="email" placeholder="" required autofocus autocomplete maxlength="50"><br>
+                    <div>
+                        <p>* Introduzca su email para recibir noticias al respecto.</p>
+                    </div>
+                </div>
+                <div id="caja4">
+                    <legend id="legend3"><strong>Teléfono</strong></legend>
+                    <div>
+                        <input type="text" name="tlf.Fijo" id="tlf.Fijo" placeholder="" required autofocus autocomplete maxlength="50"><br>
+                        <label for="tlf.Fijo">Fijo</label>
+                    </div>
+                    <div>
+                        <input type="text" name="tlf.móvil" id="tlf.móvil" placeholder="" required autofocus autocomplete maxlength="50"><br>
+                        <label for="tlf.móvil">Móvil</label>
+                    </div>
+                    <div>
+                        <p>* El teléfono fijo no es un campo obligatorio.</p>
+                    </div>
+                </div>
+        </div>
+        <hr>
+        <input class="boton" type="submit" name="enviar" value="Darme de alta"> 
+    </form>
+</body>
+</html>

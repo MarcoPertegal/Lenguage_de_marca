@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 02</title>
+    <link rel="stylesheet" href="ejercicio02.css">
+</head>
+<body>
+    <div id="formulario">
+        <h1>Formulario de Registro</h1>
+        <form name="resgistro" action="" method="" autocomplete="" enctype="multipart/from-data">
+            <fieldset>
+                <label for="nombre"><strong>Nombre</strong></label><br>
+                <input type="text" name="nombre" id="nombre" placeholder="Su nombre aquí" required autofocus autocomplete maxlength="50"><br>
+                
+                <label for="email"><strong>Email</strong></label><br>
+                <input type="text" name="email" id="email" placeholder="Su email aquí" required autofocus autocomplete maxlength="80"><br>
+
+                <label for="email"><strong>Nombre de Usuario</strong></label><br>
+                <input type="text" name="nombreDeUsuario" id="nombreDeUsuario" placeholder="Nombre de Usuario" required autofocus autocomplete maxlength="12"><br>
+
+                <label for="contrasenia"><strong>Contreaseña</strong></label><br>
+                <input type="password" name="contrasenia" id="contrasenia" placeholder="Contraseña" required autofocus autocomplete maxlength="50"><br>
+
+                <label for="repetirContrasenia"><strong>Repetir Contreaseña</strong></label><br>
+                <input type="password" name="repetirContrasenia" id="repetirContrasenia" placeholder="Repetir contraseña" required autofocus autocomplete maxlength="50"><br>
+            </fieldset>
+            <fieldset>
+                <label for="sexo"><strong>Sexo</strong></label></form><br>
+                <input type="radio" name="sexo" value="M">Masculino<br>
+                <input type="radio" name="sexo" value="F">Femenino<br>
+                <input type="radio" name="sexo" value="O">Otro<br>
+
+                <label for="fnac"><strong>Fecha Nacimiento</strong</label><br>
+                <input type="date" name="fnac" id="fnac" min="1900-01-01" max="2023-02-21"><br>
+
+                <label for="aficiones">Aficiones</strong></label><br>
+                <input type="checkbox" name="aficiones" value="Fútbol">Fútbol<br>
+                <input type="checkbox" name="aficiones" value="Baloncesto">Baloncesto<br>
+                <input type="checkbox" name="aficiones" value="Videojuegos">Videojuegos<br>
+                <input type="checkbox" name="aficiones" value="Patinar">Patinar<br>
+                <input type="checkbox" name="aficiones" value="Senderismo">Senderismo<br>
+                <input type="checkbox" name="aficiones" value="Labrar">Labrar el campo<br>
+            </fieldset>
+            <input id="boton" type="submit" name="enviar" value="Enviar"> 
+        </form>
+    </div>
+</body>
+</html>

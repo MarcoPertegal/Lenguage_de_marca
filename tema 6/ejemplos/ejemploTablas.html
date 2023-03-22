@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css"> 
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+        td, th{
+            width: 20%;
+            border: 3px solid black;
+            text-align: center;
+        }
+        tr:nth-child(odd){
+            background-color: gray; 
+            /* odd es para que afecte a los pares y even a los impares, esto añade un estilo a las filas pares e impares */
+        }
+        tr:nth-child(even){
+            background-color: bisque;
+        }
+        /* Colgroup no es mu util pero entra en el examen, no le se puede hacer hover */
+        colgroup{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Notas Lenguaje</h1>
+    <table sumary="Tabla con las calificaciones obtenidas En 1º dam"> <!-- Sumary es como alt para las imagenes sirbe para los motores de busqueda -->
+        <caption><h1>Notas segunda evaluación</h1></caption>  <!-- Caption letrerillo fuera de la tabla, se puede usar como titulo de la tabla, siempre tiene que ir despues de table -->
+        <colgroup span="2"></colgroup>
+        <thead>  
+            <!-- Etiqueta thead, tbody, tfoot... Sirben para estructurar el código como nav, article, etc -->
+            <tr>
+                <th>Alumno</th>
+                <th>Ex T5</th>
+                <th>Bol T5</th>
+                <th>Proy T4</th>
+                <th>Bol T4</th>
+                <!-- Th es para los elementos de indice de la tabla -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Manolo</td>
+                <td colspan="2">8.5</td> <!--  Para que una celda ocupe dos con colspan-->
+                <td rowspan="2">6.4</td> <!--  po mismo pero para abajo-->
+                <td>9.2</td>
+                <td>5.6</td>
+            </tr>
+            <tr>
+                <td>Morti</td>
+                <td>3.5</td>
+                <td>8.4</td>
+                <td>7.5</td>
+                <td>2.6</td>
+            </tr>
+            <tr>
+                <td>Felipe</td>
+                <td>3.5</td>
+                <td>8.4</td>
+                <td>7.5</td>
+                <td>2.6</td>
+            </tr>
+            <tr>
+                <td>lui</td>
+                <td>3.5</td>
+                <td>8.4</td>
+                <td>7.5</td>
+                <td>2.6</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Datos actualizados</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

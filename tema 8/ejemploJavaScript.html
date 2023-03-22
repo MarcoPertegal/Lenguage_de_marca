@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*let mes = 'Marzo';
+        alert(mes);*/
+
+        let pwd1 = '1234'
+        let pwd2 = '12354'
+
+        let mensaje = (pwd1 == pwd2)?"Contraseñas correctas":"contraseñas no coinciden";
+        alert(mensaje);
+
+        /*if(pwd1 == pwd2){
+            mesaje = "contraseñas correctas";
+        }else{
+            mensaje = "contraseñas mno coinciden";
+        }
+        alert(mensaje);*/
+        //lo de arriba es lo mismo que un if
+
+        //array
+        let mensaje1 = ["hola", "Juan", "Jonny"];
+
+        for(let letra of mensaje1){
+            alert(letra);
+        }
+
+        //Metodo
+        //como en javascrpt da igual el tipo de dato no se pone el tipo de dato en el metodoç
+        //para pedir datos a usuarios
+        let nombre = prompt("Escriba su nombre");
+        let apellidos = prompt("Escriba su apellido");
+
+        alert(combinarNombreYApellidos(nombre, apellidos));
+
+        function combinarNombreYApellidos(nombre, apellidos){
+            return nombre+apellidos;
+        }
+
+        
+
+    </script>
+
+</head>
+<body>
+
+    
+</body>
+</html>

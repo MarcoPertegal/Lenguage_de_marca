@@ -1,0 +1,112 @@
+@font-face {
+    font-family: orbitron;
+    src: url(fonts/Orbitron-VariableFont_wght.ttf);
+}
+/*General*/
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100vh;
+    justify-content: center;
+    background-image: url(img/background1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+body {
+    display: inline-block;
+    margin: 0px;
+    width: 100%;
+}
+/*header*/
+header {
+    background-color: rgb(12, 32, 32);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 20px 20px 30px 10px;
+    margin: 20px;
+    text-align: center;
+    font-family: orbitron;
+    font-size: 50px;
+    padding: 0px 0px 0px 0px;
+}
+/*nav*/
+/*main*/
+main {
+    background-color:#342b2ba8;
+    text-align: center;
+    height: 100vh;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    /*border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 3px solid black;*/
+
+}
+/*article*/
+article {
+    padding-top: 10%;
+}
+
+article img {
+    border-radius: 10px;
+    transition: 1s;
+}
+
+article img:hover {
+    border-radius: 10px;
+    transform: scale(1.03);
+}
+/*aside*/
+/*footer*/
+footer{
+    background-image: url(img/footerBackgroud.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-left: 10px;
+    text-align: center;
+    font-family: Arial;  
+}
+footer ol {
+    list-style: none;
+    
+    width: 80%;
+    text-align:center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+ 
+footer li {
+    padding-bottom: 100%;
+    display:inline-table;
+    width: calc(85%/3);
+    height:115px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    margin: 5px;
+    padding:0px;
+    font-size: 8pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    transition: 0.5s;
+}
+footer h4{
+    font-size: 10pt;
+    margin: 2px;
+}
+footer p{
+    margin: 2px;
+}

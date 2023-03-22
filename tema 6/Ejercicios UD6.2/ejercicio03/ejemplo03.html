@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <link rel="stylesheet" href="ejercicio03.css">
+</head>
+<body>
+    <h1>Formulario de Alta</h1>
+    <form name="resgistro" action="" method="" autocomplete="" enctype="multipart/from-data">
+        <div id="envoltorio">
+            <div id="columna1">
+                <fieldset>
+                    <legend><strong>Nombre y apellidos</strong></legend>
+                    <div>
+                        <input id="tamanioCajaNombre" type="text" name="nombre" id="nombre" placeholder="" required autofocus autocomplete maxlength="50"><br>
+                        <label for="nombre">Nombre</label>
+                    </div>
+                    <div>
+                        <input type="text" name="primerApellido" id="primerApellido" placeholder="" required autofocus autocomplete maxlength="50"><br>
+                        <label for="apellido1">Primer Apellido</label>
+                    </div>
+                    <div>
+                        <input type="text" name="segundoApellido" id="segundoApellido" placeholder="" required autofocus autocomplete maxlength="50"><br>
+                        <label for="apellido2">Segundo Apellido</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <legend><strong>Email</strong></legend>
+                        <input type="text" name="email" id="email" placeholder="" required autofocus autocomplete maxlength="50"><br>
+                    </div>
+                </fieldset>
+            </div>
+            <div id="columna2">
+                <fieldset>
+                    <legend><strong>Dirección</strong></legend>
+                    <div>
+                        <input type="text" name="calle" id="calle" placeholder="" required autofocus autocomplete maxlength="50"><br>
+                        <label for="calle">Calle, número, piso, puerta</label>
+                    </div>
+                    <div id="caja2">
+                        <div class="subcaja1">
+                            <div>
+                                <input type="text" name="codPostal" id="codPostal" placeholder="" required autofocus autocomplete maxlength="50"><br>
+                                <label for="codPostal">Código Postal</label>
+                            </div>
+                            <div>
+                                <input type="text" name="provincia" id="provincia" list="opciones">
+                                <datalist id="opciones">
+                                    <option value="Sevilla"></option>
+                                    <option value="Cádiz"></option>
+                                    <option value="Málaga"></option>
+                                    <option value="Granada"></option>
+                                    <option value="Huelva"></option>
+                                    <option value="Córdoba"></option>
+                                </datalist><br>
+                                <label for="prov">Provincia</label>
+                            </div>
+                        </div>
+                        <div class="subcaja2">
+                            <div>
+                                <input type="text" name="municipio" id="municipio" placeholder="" required autofocus autocomplete maxlength="50"><br>
+                                <label for="municipio">Municipio</label>
+                            </div>
+                            <div>
+                                <input type="text" name="país" id="país" list="opciones">
+                                <datalist id="opciones">
+                                    <option value="Alemania"></option>
+                                    <option value="Francia"></option>
+                                    <option value="Italia"></option>
+                                    <option value="España"></option>
+                                    <option value="Grecia"></option>
+                                    <option value="Polonia"></option>
+                                </datalist><br>
+                                <label for="país">País</label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend><strong>Teléfono</strong></legend>
+                    <div id="caja3">
+                        <div>
+                            <input type="text" name="tlf.Fijo" id="tlf.Fijo" placeholder="" required autofocus autocomplete maxlength="50"><br>
+                            <label for="tlf.Fijo">Fijo</label>
+                        </div>
+                        <div>
+                            <input type="text" name="tlf.móvil" id="tlf.móvil" placeholder="" required autofocus autocomplete maxlength="50"><br>
+                            <label for="tlf.móvil">Móvil</label>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+            <hr>
+            <input class="boton" type="submit" name="enviar" value="Darme de alta"> 
+    </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    width: 50%;
+}
+table thead tr th{
+    text-align: left;
+}
+td, th{
+    border: 2px solid #7DC95E;
+    padding: 0.5%;
+}
+table tr th{
+    background-color: #7DC95E;
+    color: white;
+
+}
+tr:nth-child(even){
+    background-color: lightgreen; 
+}

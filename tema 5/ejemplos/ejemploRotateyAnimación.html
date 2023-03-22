@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        div.boton{
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            padding: 62px;
+            color: aqua;
+            font-size: 24pt;
+            background-color: green;
+            /*para la animacion*/
+            /*
+            animation-name: miAnimacion;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            animation-direction: normal;
+            /*las veces que lo hace*/
+            /*animation-iteration-count: 3;
+            animation-timing-function: ease-in;
+            animation-fill-mode: both;
+            LO DE ARRIVA ES LO MISMO QUE ESTO*/
+            animation: miAnimacion 2s 1s normal 3 ease-in both;
+            /* backface-visibility: hidden;*/
+        }
+        div.boton:hover{
+            animation-play-state: running;
+        }
+        @keyframes miAnimacion{
+            0%{
+                background-color: green;
+                transform: translate(0px,0px);
+            }
+            25%{
+                transform: translate(100px, 0px);
+                background-color: red;
+            }
+            50%{
+                background-color: yellow;
+                transform: translate(100px, 100px);
+            }
+            75%{
+                transform: translate(0px, 100px);
+                background-color: purple;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="boton">Botón</div>
+</body>
+</html>

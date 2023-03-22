@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    margin-bottom: 20px;
+}
+input[type="checkbox"]{
+    margin-bottom: 10px;
+}
+input[type="radio"]{
+    margin-bottom: 10px;
+}
+form{
+    display: flex;
+    margin-left: 10%;
+}
+#formulario{
+    background-color:#5BB0BD;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 500px;
+    border-radius: 5%;
+    padding-top: 1%;
+}
+h1{
+    margin-left: 10%;
+}
+fieldset{
+    border: 0px;
+}
+body{
+    background-image: url(img/fondo.jpg);
+    background-size: 100%;
+}
+#boton{
+    width: 70%;
+    height: 40px;
+    margin-left: 13%;
+    background-color: lightblue;
+    border: 0px;
+    font-size: 16pt;
+}
+#boton:hover{
+    background-color: bisque;
+}

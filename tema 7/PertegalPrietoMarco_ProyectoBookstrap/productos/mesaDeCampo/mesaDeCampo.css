@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica, sans-serif;
+}
+nav div a img{
+    width: 120px;
+}
+main .mesas img{
+    width: 100%;
+}
+.carousel-inner{
+    background-color: #bab7b7;
+    background-size: 50%;
+}
+.carousel-inner img{
+    width: 50%;
+    margin-left: 25%;
+}
+.articulo{
+    font-size: 20pt;
+}
+main .row{
+    text-align: center;
+    font-size: 20pt;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+}
+.container1 div span{
+    font-size: 30pt;
+}
+.especificaciones .col-8 img{
+    width: 75%;
+}
+.especificaciones{
+    font-size: 30pt;
+    margin-left: 5%;
+}
+hr{
+    width: 100%;
+}
+.especificaciones span{
+    font-size: 25pt;
+}
+.mesas{
+    margin-bottom: 3%;
+}
+.d-grid{
+    margin-bottom: 3%;
+}
+.d-grid a{
+    color: white;
+}
+.d-grid a:hover{
+    color: white;
+}
+footer{
+    background-color: #01222F;
+    padding-top: 2.5%;
+    padding-bottom: 3.5%;
+    margin: 0 auto;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: white;
+}

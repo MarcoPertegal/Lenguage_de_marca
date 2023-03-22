@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+nav{
+    background-color: #E6E6E6;
+}
+nav div ul li a{
+    padding-top: 40%;
+}
+nav div a img{
+    width: 120px;
+}
+main{
+    background-image: url(img/imagenBolsa.jpg); 
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    background-position-x: 40%;
+}
+.anuncioPortada{
+    padding-top: 25%;
+    padding-left: 8%;
+    padding-bottom: 35%;
+
+}
+.anuncioPortada a{
+    color: #2C87B5;
+}
+.anuncioPortadaTitulo{
+    font-size: 46px;
+    line-height: 40px;
+}
+.anuncioPortadaSubtitulo{
+    font-size: 20px;
+}
+main a{
+    font-size: 20px;
+}
+footer{
+    background-color: #01222F;
+    padding-top: 2.5%;
+    padding-bottom: 3.5%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: white;
+}
+

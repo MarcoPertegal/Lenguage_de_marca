@@ -1,0 +1,224 @@
+@font-face {
+    font-family: orbitron;
+    src: url(../fonts/Orbitron-VariableFont_wght.ttf);
+}
+/*General*/
+* {
+    box-sizing: border-box;
+    font-family: orbitron;
+    color:white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    height: 100vh;
+    justify-content: center;
+    background-image: url(img/backgroundContenidoLore.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    display: inline-block;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+/*header*/
+header {
+    display: inline-block;
+    color:white;
+    width: 90%;
+    height: 150px;
+    font-family: orbitron;
+    font-size: 50px;
+    text-align: center;
+    background-image: url(../img/banner.png);
+    margin-bottom: 0px;
+    padding-top: 2.5%;
+}
+/*nav*/
+nav {
+    width: 90%;
+    margin: 0px;
+    margin-left: 5%;
+    padding: 0px;
+}
+
+nav ol {
+    background-color: rgba(255, 228, 196, 0.527);;
+    list-style: none;
+    display: table;
+    width: 100%;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+nav li{
+    background-color: rgba(78, 78, 78, 0.658);
+    display: inline-table;
+    height: 100%;
+    width: 155px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 15px;
+    border: 2px solid black;
+    margin-left: calc(30%/3);
+    margin-right: calc(30%/3);
+    font-family: orbitron;
+    transition: 0.5s;
+}
+
+nav li:hover{
+    background-color: rgba(78, 78, 78, 0.658);
+    display: inline-table;
+    height: 100%;
+    width: 155px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 25px;
+    border: 2px solid black;
+    margin-left: calc(30%/3);
+    margin-right: calc(30%/3);
+    font-family: orbitron;
+    transform: scale(1.05);
+}
+/*main*/
+main {
+    width: 90%;
+    height: fit-content;
+    margin-left: 5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/*article*/
+article p {
+    text-align: left;
+    margin-left: 30%;
+}
+article {
+    display: inline-block;
+    background-color: rgba(255, 228, 196, 0.527);
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#fondo_articulo {
+    background-color: rgb(58, 57, 57);
+    margin: 0px;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+article h1, h2 {
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 8px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-image: url(img/fondito.png);
+}
+
+#carrusel {
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 0px;
+    width: 100%;
+}
+
+.flechas {
+    height: 300px;
+    transition: 0.5s;
+}
+
+.flechas:hover {
+    height: 300px;
+    background-color: rgba(0, 0, 255, 0.199);
+    transform: rotate(-5deg);
+}
+
+#arma {
+    height: 300px;
+}
+/*aside*/
+aside {
+    background-color: rgba(255, 228, 196, 0.527);
+    float:right;
+    width: 20%;
+    height:max-content;
+}
+
+aside * {
+    width: 100%;
+    margin-top: 100px;
+}
+/*footer*/
+footer{
+    background-image: url(../img/footerBackgroud.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-left: 10px;
+    text-align: center;
+    font-family: Arial;  
+}
+footer ol {
+    list-style: none;
+    display: table;
+    width: 80%;
+    text-align:center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+ 
+footer li {
+    padding-bottom: 100%;
+    display:inline-table;
+    width: calc(85%/3);
+    height:115px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    margin: 5px;
+    padding:0px;
+    font-size: 8pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    transition: 0.5s;
+}
+footer h4{
+    font-size: 10pt;
+    margin: 2px;
+}
+footer p{
+    margin: 2px;
+}

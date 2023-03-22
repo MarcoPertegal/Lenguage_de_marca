@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+main div a{
+    padding-top: 50%;
+    display: flex;
+    height: 100%;
+    background-size: 100%;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 3%;
+    padding-left: 3%;
+}
+nav div a img{
+    width: 120px;
+}
+a{
+    text-decoration: none;
+}
+main div a:hover{
+    color: white;
+}
+.producto1{
+    background-image: url(../img/fondoMesas.jpg);
+}
+.producto2{
+    background-image: url(../img/imagenFiguras.jpg);
+    background-position-y: 100%;
+}
+.producto3{
+    background-image: url(../img/Computer1.jpg);
+    background-position-y: 70%;
+}
+.producto4{
+    background-image: url(../img/ob-4.jpg);
+    background-position-y: 70%;
+}
+.producto5{
+    background-image: url(../img/tocadiscos.jpg);
+    background-position-y: 40%;
+    width: 90%;
+    color: black;
+}
+.producto6{
+    background-image: url(../img/setTrabajo.jpg);
+    background-position-y: 100%;
+    color: black;
+}
+.producto5:hover{
+    color: black;
+}
+.producto6:hover{
+    color: black;
+}
+footer{
+    background-color: #01222F;
+    padding-top: 2.5%;
+    padding-bottom: 3.5%;
+    margin: 0 auto;
+}
+footer a{
+    color: white;
+}

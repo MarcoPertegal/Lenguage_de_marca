@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin-top: 5%;
+}
+nav{
+    width: 85%;
+    margin: 0 auto;  
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #F1E9DA;
+    border-radius: 50px;
+}
+nav ul li{
+    flex: 1 1 25%;
+    text-align: center;
+    border-color: grey;
+    border-style: solid;
+    text-decoration: none;
+    color: grey;
+    font-size: 24pt;
+    padding: 2%;
+}
+nav ul li:hover{
+    background-color: grey;
+    color:  #F1E9DA;
+}
+nav ul li:first-child{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+nav ul li:last-child{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+

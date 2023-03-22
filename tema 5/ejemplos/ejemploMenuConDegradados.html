@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu y Degradados</title>
+    <style type="text/css">
+        body{
+            margin: 0 auto;
+            width: 85%;
+            margin-top: 2%;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        header{
+            background-color: green;
+            margin: 0 auto;
+            text-align: center;
+            color: white;
+            padding: 30px;
+            /*background-image: repeating-linear-gradient(to left bottom,lightgreen, green, yellow);*/
+            /*background-image: repeating-linear-gradient(to right, white, green 5%, white 10%);*/
+            background-image: repeating-radial-gradient(circle closest-side at 25% 50%, black 40%, red 90%);
+            /*si se le quita el repating ante de radial ya no se repite*/
+        }   
+        nav ul{
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 0px;
+        }
+        nav ul a{
+            flex: 1 1 auto;
+            background-color: lightgreen;
+            color: green;
+            text-decoration: none;
+            text-align: center;
+            height: 50px;
+            padding: 15px;
+            font-size: 15pt;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+            border: white solid 5px;
+            border-bottom-width: 0px;
+        }
+        nav ul a:first-child{
+            border-left-width: 0px;
+        }
+        nav ul a:last-child{
+            border-right-width: 0px;
+        }
+        main{
+            border: 5px lightgreen solid;
+            padding: 2%;
+            margin-top: 0px;
+        }
+        main section{
+            display: none;
+        }
+        main section:target{
+            display: inherit;
+        }
+        nav ul a.activa{
+            background-color: white;
+            border-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Animales Adorables</h1></header>
+    <nav>
+        <ul>
+            <a href="#wombat"><li>Wombat</li></a>
+            <a href="#capibara" class="activa"><li>Capibara</li></a>
+            <a href="#taz"><li>Demonio de tasmana</li></a>
+            <a href="#kuoka"><li>Kuoka</li></a>
+        </ul>
+    </nav>
+    <main>
+        <section id="wombat">
+            <h2>BOmba</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut at ducimus placeat 
+            necessitatibus! Animi aliquam cumque culpa odit minima, nulla sapiente assumenda similique 
+            reiciendis vero doloribus adipisci quae reprehenderit architecto.</p>
+            <img src="img/fondodoble.png" width="25%" alt="Imagen">
+        </section>
+        <section id="capibara">
+            <h2>CApi</h2>
+            <p>ndgñsghnñeahgañg oagñdghe nslghsnñghn s gnsñgbsgñ
+            agsjhgnñshgnsñhgosho h  h ñehs nñlhb  h n ñ hnew ñhtbnñebñebgsñgb be ñbñ 
+            dggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+            ggggggggggggggggggggggggggggggggggggggggggggg</p>
+            <img src="img/Captura.JPG" width="25%" alt="Imagen">
+        </section>
+        <section id="taz">
+            <h2>Demonio</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti hic facere dicta reprehenderit. 
+            Commodi illum, debitis voluptate impedit quos blanditiis quisquam aperiam omnis iste! Maiores 
+            aliquam esse possimus optio quam?</p>
+            <img src="img/fondodoble.png" width="25%" alt="Imágen">
+        </section>
+        <section id="kuoka">
+            <h2>KAKA</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo quo sint reprehenderit debitis 
+            libero odit rem incidunt minima fugiat, ut omnis? Tempore facilis eveniet mollitia, dolorum quis velit sint 
+            nulla? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, optio voluptatum. Doloremque, beatae repudiandae 
+            provident laudantium, vel illo non ea omnis delectus autem rem? Cumque a officia accusamus enim itaque!</p>
+            <img src="img/Captura.JPG" width="25%" alt="Imagen ">
+        </section>
+        
+    </main>
+
+</body>
+</html>

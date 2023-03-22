@@ -1,0 +1,192 @@
+
+@font-face {
+    font-family: orbitron;
+    src: url(fonts/Orbitron-VariableFont_wght.ttf);
+}
+/*General*/
+*{
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("img/backgroundJuegosDoom.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*header*/
+header {
+    display: inline-block;
+    color:white;
+    width: 90%;
+    height: 150px;
+    font-family: orbitron;
+    font-size: 50px;
+    text-align: center;
+    background-image: url(../img/banner.png);
+    margin-bottom: 0px;
+    padding-top: 2.5%;
+}
+/*nav*/
+nav {
+    width: 90%;
+    margin: 0px;
+    margin-left: 5%;
+    padding: 0px;
+}
+
+nav ol {
+    background-color: rgba(255, 228, 196, 0.527);;
+    list-style: none;
+    display: table;
+    width: 100%;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+nav li{
+    background-color: rgba(78, 78, 78, 0.658);
+    display: inline-table;
+    height: 100%;
+    width: 155px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 15px;
+    border: 2px solid black;
+    margin-left: calc(30%/3);
+    margin-right: calc(30%/3);
+    font-family: orbitron;
+    transition: 0.5s;
+}
+
+nav li:hover{
+    background-color: rgba(78, 78, 78, 0.658);
+    display: inline-table;
+    height: 100%;
+    width: 155px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 25px;
+    border: 2px solid black;
+    margin-left: calc(30%/3);
+    margin-right: calc(30%/3);
+    font-family: orbitron;
+    transform: scale(1.05);
+}
+/*main*/
+#envoltorio{
+    display: flex;
+    background-color: #000000db;
+    width: 65%;
+    margin: 12.5%;
+    font-family: orbitron, Arial;
+    color: #A2ABAB;
+}
+#envoltorio main{
+    flex-basis: 60%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 2%;
+}
+main .pConFoto{
+    display: flex;
+}
+main .pConFoto p{
+    flex: 1 1 75%;
+}
+main .pConFoto img{
+    display: block;
+    flex: 0 0 20%;
+    width: 50%;
+    margin-left: 5%;
+}
+main h1{
+    font-size: 50pt;
+    color: red;
+    text-align: center;
+}
+main h3{
+    font-size: 25pt;
+    color: red;
+}
+/*aside*/
+#envoltorio aside{
+    background-color: black;
+    position: fixed;
+    width: 20%;
+    text-align: right;
+    right: 40px;
+    top: 0px;
+}
+aside p{
+    text-align: left;
+}
+aside .anuncio{
+    width: 90%;
+    background-color: #47363680;
+    padding: 5px;
+    margin: 15px;
+}
+aside .anuncio img{
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+}
+aside .anuncio video{
+    width: 100%;
+}
+/*footer*/
+footer{
+    background-image: url(img/footerBackgroud.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+    width: 100%;
+    height: 200px;
+    padding-top: 50px;
+    padding-left: 10px;
+    text-align: center;
+    font-family: Arial;
+}
+footer ol {
+    list-style: none;
+    display: table;
+    width: 80%;
+    text-align:center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+ 
+footer li {
+    padding-bottom: 100%;
+    display:inline-table;
+    width: calc(85%/3);
+    height:115px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    margin: 5px;
+    padding:0px;
+    font-size: 8pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    transition: 0.5s;
+}
+footer h4{
+    font-size: 10pt;
+    margin: 2px;
+}
+footer p{
+    margin: 2px;
+}
