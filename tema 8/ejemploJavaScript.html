@@ -42,8 +42,41 @@
             return nombre+apellidos;
         }
 
-        
+        //lambda
+        let combinarNombreYApellidosV2 = (nombre, apellidos) => nombre+apellidos;
 
+        let palabras = new Array();
+        let salir = false;
+
+        //se sale cuando se pone un 0
+        do{
+            let palabra = prompt("Diga palabra");
+            if(palabra !== '0'){
+                palabras.push(palabra);
+            }else{
+                salir = true;
+            }
+        }while(!salir);
+
+        alert(palabras.join(' '));
+
+        //NaN = not a number
+        //comprobación para vr si el usuario escribe números
+        //siempre que dividamos numeros por teclado usr infinity
+        //toFixed para redondear el resultado el toFixed devuelve un string por lo que no se puede volver a dividir
+        let num1 = prompt('Diga un número');
+        let num2 = prompt('Diga otro número');
+        let resultado = NaN;
+
+        do{
+            if(isFinite(num1)&&isFinite(num2)){
+                let resultado = num1/num2;
+                alert("El resultado de dividir"+num1+"y"+num2+"es: "+resultado.toFixed(2));
+            }else{
+                alert("Pon un numero perro")
+            }
+        }while(!isFinite(resultado));
+        
     </script>
 
 </head>
