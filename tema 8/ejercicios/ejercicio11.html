@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 11</title>
+    <script>
+        function hacerCosasArray() {
+            let tamanio = prompt('Indique tamaño array');
+            let miArray = [];
+            for (let i = 0; i < tamanio; i++) {
+                let numero;
+                let salir = false;
+                do {
+                    numero = prompt('dime número');
+                    if (isFinite(numero) && numero > 0) {
+                        miArray[i] = numero; //el .push mete elemento al final del array
+                        salirDelBucle = true;
+                    }else{
+                        alert('di un número');
+                    }
+                } while (!salir);
+            }
+            alert(miArray);
+        }
+        hacerCosasArray();
+
+    </script>
+</head>
+<body>
+
+    
+</body>
+</html>

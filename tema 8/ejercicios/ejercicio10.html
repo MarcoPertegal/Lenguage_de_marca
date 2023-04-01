@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10</title>
+    <script>
+        function esPalindromo(str) {
+            let strEnArray = str.split('');//se crea el array porque reverse es unmetodode array
+            let arrayDelReves = strEnArray.reverse();
+            let delReves = arrayDelReves.join('');
+
+            if (str === delReves) {
+                alert('Es palindromo');
+            }else{
+                alert('No es');
+            }
+        }
+        esPalindromo(prompt("Escriba el texto"));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

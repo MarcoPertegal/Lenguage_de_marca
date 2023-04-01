@@ -7,29 +7,26 @@
     <title>Ejercicio 4</title>
     <script>
         
-        var valores = [true, 5, false, "hola", "adios", 2]; 
+        var valores = [true, 5, false, "hola", "adios", 2];
+
         let valor1 = valores[3];
         let valor2 = valores[4];
-        
         if(valor1 <= valor2){
             alert(valor1+" es mayor.");
         }else{
             alert(valor2+" es mayor.");
         }
 
-        valor1 = valores[0];
-        valor2 = valores[2];
+        valores[0]?alert("Es verdadero"):alert("Es falso");
+        valores[2]?alert("Es verdadero"):alert("Es falso");
+        
 
-        if(valor1){
-            alert("Es verdadero");
-        }
-        if(valor2){
-            alert("Es falso");
-        }
 
-        valor1 = valores[1];
-        valor2 = valores[4];
-
+        alert(valores[1]+valores[5]);
+        alert(valores[1]-valores[5]);
+        alert(valores[1]*valores[5]);
+        alert(valores[1]/valores[5]);
+        alert(valores[1]%valores[5]);
         
     </script>
 </head>
