@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // Creamos un array vacío
+        let miArray = [];
+
+        // Solicitamos al usuario ingresar los elementos hasta que ingrese "fin"
+        let elemento = prompt("Ingrese un elemento para el array (ingrese negativo termianar):");
+
+        while (elemento >= 0) {
+        // Agregamos el elemento ingresado por el usuario al array
+        miArray.push(elemento);
+
+        // Solicitamos al usuario ingresar el siguiente elemento
+        elemento = prompt("Ingrese otro elemento para el array (ingrese negativo termianar):");
+        }
+        alert(miArray);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
