@@ -3,17 +3,17 @@ function pedirNombres(){
 	let listaNombres = [];
 	do{
 		let nombre = prompt('Indique un nombre');
-		if(isNaN(nombre)){
+		if(isNaN(nombre)){//si no es un numero entra
 			listaNombres.push(nombre);			
 		}else{
 			salir = true;
 		}
 	}while(!salir);	
 
-	return listaNombres;
+	return listaNombres;//devuelve la lista
 }
 
-function camelize(str){
+function camelize(str){//recibe un string
 	let palabras = str.split('-');
 	for(let i=1;i<palabras.length;i++){ //la primera palabra no se toma en consideración
 		let palabra = palabras[i];
@@ -45,3 +45,14 @@ function principal(){
 }
 
 principal();
+
+//////////////////
+function imprimirArray() {
+	let nombres = pedirNombres();
+	
+	for (let i = 0; i < nombres.length; i++) {
+		alert(nombres[i]);
+	}
+}
+imprimirArray();
+
